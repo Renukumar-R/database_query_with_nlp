@@ -22,7 +22,7 @@ from langchain.chains.sql_database.prompt import PROMPT_SUFFIX
 from langchain.prompts.prompt import PromptTemplate
 from langchain.prompts.example_selector.base import BaseExampleSelector
 
-google_api_key = 'YourAPIKey'
+google_api_key = 'YourAPIKey' #You can create google llm api free in https://developers.generativeai.google/
 ```
 
 ## Data Preparation
