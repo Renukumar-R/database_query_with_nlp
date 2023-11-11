@@ -1,0 +1,6 @@
+langchain
+InstructorEmbedding
+sentence_transformers
+google.generativeai
+langchain_experimental
+faiss-cpu
