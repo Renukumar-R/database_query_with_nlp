@@ -30,6 +30,10 @@ google_api_key = 'YourAPIKey' #You can create google llm api free in https://dev
 # Initializes GooglePalmEmbeddings with your API key.
 embeddings = GooglePalmEmbeddings(google_api_key=google_api_key)
 
+# Datasets Used
+# https://www.kaggle.com/datasets/iqmansingh/company-employee-dataset
+# https://www.kaggle.com/datasets/ananysharma/indian-names-dataset
+
 # Loads data from a CSV file using CSVLoader, extracting specified metadata columns.
 loader = CSVLoader(file_path='Data_to_vector.csv', metadata_columns=['sex', 'company', 'employement_type', 'department'])
 data = loader.load()
