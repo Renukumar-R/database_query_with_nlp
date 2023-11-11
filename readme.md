@@ -119,3 +119,5 @@ model.run('What are the departments in tesla?')
 
 model.run('Which employee got higher bonus give the name?')
 ```
+#### By Renukumar
+Linkedin : https://www.linkedin.com/in/renukumar-r/
